@@ -11,7 +11,7 @@ root.title("Detector de Spam")
 label = tk.Label(root, text = "Hola mundo") #Agregar widgets de texto
 label.pack(pady = 10)
 
-button = tk.Button(root, text="Haz clic aquí", command=mostrar_mensaje) #Agregar botones
+button = tk.Button(root, text="Haz clic aquí", command = mostrar_mensaje) #Agregar botones
 button.pack(pady = 10)
 
 # Finalizar GUI
